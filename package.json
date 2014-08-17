@@ -1,0 +1,27 @@
+{
+  "name": "dcabines",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "devplus": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "browserify": "*",
+    "gulp-concat": "*",
+    "gulp-jshint": "*",
+    "gulp-browserify": "*",
+    "gulp-uglify": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-replace": "*",
+    "merge-stream": "*",
+    "gulp-wrapper": "*",
+    "gulp-minify-html": "*"
+  }
+}

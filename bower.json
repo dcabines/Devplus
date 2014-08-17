@@ -1,0 +1,11 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"dependencies": {
+		"angular": "*",
+		"angular-ui": "*",
+		"angular-ui-router": "*",
+		"bootstrap": "*",
+		"todomvc-common": "*"
+	}
+}

@@ -1,0 +1,26 @@
+doctype html
+html(lang='en' ng-app='devplus')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		title dev+
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='/css/libs.css')
+		style
+			include includes/bundle.css
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Pacifico|Roboto:300')
+		block styles
+		script
+			include includes/appInsights.js
+
+	body
+		include partials/navbar.jade
+		block content
+		include partials/footer.jade
+		include includes/templates.html
+
+		script(src='/js/libs.js')
+		script
+			include includes/bundle.js
+		block scripts
